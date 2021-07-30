@@ -1,10 +1,10 @@
 # port-scanner
-Python-based port scanner
+A Python-based port scanner
 
 ## Features
 - Scans all 65k ports
 - Finds ports state : open, close, filtered, unfiltered, open | filtered
-- Finds ports service by ``socket.getservbyport(port#)``
+- Finds ports service by ``socket.getservbyport(port #)``
 - Supports the following scan modes :
 	- Connect Scan
 	- Ack Scan
