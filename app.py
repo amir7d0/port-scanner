@@ -404,7 +404,7 @@ class Port_scanner():
 
 
 
-def main():
+if __name__=='__main__':
     parser = optparse.OptionParser(usage="%prog -t <IP or URL> -p <min-max> -s <scan mode> -d <delay>")
     parser.add_option("-t", "--target", dest="target", type="string", help="input target hostname")
     parser.add_option("-p", "--port-range", dest="port_range", type="string", help="input range in format 'min-max'")
@@ -470,4 +470,3 @@ def main():
         scanner.Window_Scan()
 
 
-main()
